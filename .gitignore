@@ -1,0 +1,13 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# production
+/build
+
+# firebase
+.firebase
+.github
+.firebaserc
+firebase.json

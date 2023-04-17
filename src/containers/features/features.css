@@ -1,0 +1,53 @@
+.gpt3-features {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 32px 96px;
+}
+
+.gpt3-features-heading {
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 80px;
+}
+
+.gpt3-features-heading h1 {
+    font-size: 34px;
+    line-height: 45px;
+    font-weight: 800;
+}
+
+.gpt3-features-heading p {
+    color: var(--color-subtext);
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 500;
+    margin-top: 32px;
+}
+
+@media screen and (max-width: 750px) {
+    .gpt3-features {
+        flex-direction: column;
+    }
+
+    .gpt3-features-heading {
+        margin: 16px 0px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .gpt3-features {
+        padding: 32px;
+    }
+
+    .gpt3-features-heading h1 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+}
